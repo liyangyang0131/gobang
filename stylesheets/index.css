@@ -1,0 +1,94 @@
+body{
+	margin:0;
+	background:url('../images/l5.jpg');
+}
+.same{
+	width:100%;
+}
+#sence{
+	width:600px;
+	height:600px;
+	background:#b4bfa0;
+	margin:30px auto 0;
+	border-radius:10px;
+	position:relative;
+}
+
+.block{
+	border-radius:50%;
+	float:left;
+	position:relative;
+	z-index:5;
+}
+.lx{
+	width:200px;
+	height:200px;
+	background:#fff;
+	border-radius:50%;
+	position:absolute;
+	top:20px;
+	left:60px;
+	background:url('../images/ll5.jpg') -70px 0px;
+}
+.rx{
+	width:200px;
+	height:200px;
+	background:#fff;
+	border-radius:50%;
+	position:absolute;
+	bottom:20px;
+	right:60px;
+	background:url('../images/ll6.jpg') -40px 0px;
+}
+.hidden{
+	width:600px;
+	height:600px;
+	background-color:rgba(0,0,0,0.7);
+	position:absolute;
+	left:383px;
+	top:30px;
+	z-index:10;
+	-webkit-transition:all .3s ease;
+	display:none;
+}
+.same{
+	width:200px;
+	height:60px;
+	border-radius:10px;
+	/*background:#982D24;*/
+	background:linear-gradient(#BB392E,#982D24);
+	box-shadow:0 5px 5px #982D24;
+	text-align: center;
+	line-height:60px;
+	font-size:34px;
+	z-index:20;
+	color:#E5E5E5;
+}
+.same:hover{
+	/*background:#9E3027;*/
+	background:linear-gradient(#BB392E,#9E3027);
+	box-shadow:0 5px 5px #982D24;
+	cursor: pointer;
+}
+.again{
+	position:absolute;
+	left:35%;
+	top:50%;
+}
+.cancle{
+	position:absolute;
+	left:35%;
+	top:67%;
+}
+#who{
+	width:280px;
+	height:100px;
+	/*background:#fff;*/
+	text-align: center;
+	line-height:60px;
+	color:#fff;
+	font-size: 3em;
+	position:absolute;
+	left:28%;
+	top:25%;
+}
