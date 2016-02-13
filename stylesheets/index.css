@@ -1,14 +1,37 @@
 body{
 	margin:0;
-	background:url('../images/l5.jpg');
+	background:url(../images/bg2.png) no-repeat;
+	background-size:cover;
 }
+.item{
+	width:200px;
+	height:80px;
+	position:absolute;
+	right:60px;
+	top:40px;
+	background:url(../images/word1.png) no-repeat;
+	background-size:cover;
+}
+@keyframes dong {
+
+}
+.box{
+	width:210px;
+	height:140px;
+	position:absolute;
+	right:100px;
+	top:120px;
+	background:url(../images/hezi.png) no-repeat;
+	background-size:cover;
+}
+
 .same{
 	width:100%;
 }
 #sence{
 	width:600px;
 	height:600px;
-	background:#b4bfa0;
+	background:rgba(0,0,0,0.1);
 	margin:30px auto 0;
 	border-radius:10px;
 	position:relative;
@@ -41,54 +64,70 @@ body{
 	background:url('../images/ll6.jpg') -40px 0px;
 }
 .hidden{
-	width:600px;
-	height:600px;
+	width:100%;
+	height:100%;
 	background-color:rgba(0,0,0,0.7);
 	position:absolute;
-	left:383px;
-	top:30px;
+	left:0;
+	top:0;
 	z-index:10;
 	-webkit-transition:all .3s ease;
 	display:none;
 }
 .same{
-	width:200px;
-	height:60px;
+	width:250px;
+	height:65px;
 	border-radius:10px;
-	/*background:#982D24;*/
-	background:linear-gradient(#BB392E,#982D24);
-	box-shadow:0 5px 5px #982D24;
 	text-align: center;
-	line-height:60px;
+	line-height:65px;
 	font-size:34px;
 	z-index:20;
-	color:#E5E5E5;
+	color:#fff;
+	transition: transform 1s ease;
+	cursor: pointer;
 }
 .same:hover{
-	/*background:#9E3027;*/
-	background:linear-gradient(#BB392E,#9E3027);
-	box-shadow:0 5px 5px #982D24;
-	cursor: pointer;
+	transform: scale(1.1,1.1);
 }
 .again{
 	position:absolute;
-	left:35%;
+	left:42%;
 	top:50%;
+	background:url(../images/enter1.png) no-repeat;
+	background-size:cover;
 }
 .cancle{
 	position:absolute;
-	left:35%;
+	left:42%;
 	top:67%;
+	background:url(../images/enter1.png) no-repeat;
+	background-size:cover;
 }
 #who{
-	width:280px;
-	height:100px;
-	/*background:#fff;*/
+	width:598px;
+	height:80px;
 	text-align: center;
-	line-height:60px;
+	line-height:80px;
 	color:#fff;
 	font-size: 3em;
 	position:absolute;
 	left:28%;
 	top:25%;
+}
+.items{
+	width:68px;
+	height:60px;
+	float:left;
+	transform: scale(1.1,1.1);
+	overflow: hidden;
+}
+
+#item1{
+	margin-left:200px;
+	margin-top:10px;
+}
+#item2{
+	margin-left:40px;
+	width:150px;
+	height:80px;
 }
